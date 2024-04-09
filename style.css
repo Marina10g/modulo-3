@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+.bg-dark {
+    background-color: #141414!important;
+}
+.navbar .navbar-brand img {
+    width: 100px;
+}
+.navbar .navbar-nav img {
+    width: 50px;
+}
+main {
+    min-height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow-x: hidden;
+}
+
+#genre .dropdown-toggle, #genre .dropdown-menu {
+    border-radius: 0px!important;
+    
+}
+
+
+.movie-row img {
+    width: 100%;
+    position: relative;
+}
+
+.movie-row img:last-of-type~.movie-shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.516);
+    position: absolute;
+    top: 0
+}
+
+.movie-card {
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.container {
+    display: flex; /*me li posiziona in orizzontale, di default li metterebbe in verticale */
+    width: 800px;
+}
+
+.icon {
+    display: flex;
+    margin-left: 150px;
+}
+.box {
+    margin: 5px;
+}
+
+.box1 {
+    flex-grow: 1;
+    color: gray;
+}
+
+.box2 {
+    flex-grow: 1;
+    color: gray;
+}
+
+.box3 {
+    flex-grow: 1;
+    color: gray;
+}
+
+.box4 {
+    flex-grow: 1;
+    color: gray;
+}
